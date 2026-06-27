@@ -1,4 +1,4 @@
-# OctaShield - Centralized VM Monitoring Dashboard and WhatsApp Gateway
+# Centralized VM Monitoring Dashboard and WhatsApp Gateway
 
 OctaShield is a self-hosted, lightweight, and free centralized monitoring dashboard for virtualized machines (VMs). It displays real-time resource utilization (CPU, RAM, Disk, Uptime) in a glassmorphic dark-themed Web UI and includes a two-way WhatsApp automation bot for instant alerting and interactive querying.
 
