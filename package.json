@@ -1,0 +1,33 @@
+{
+  "name": "vm-whatsapp-dashboard",
+  "version": "1.0.0",
+  "description": "Centralized VM Monitoring Dashboard with WhatsApp Automation",
+  "main": "src/server/index.js",
+  "type": "module",
+  "scripts": {
+    "dev:server": "node src/server/index.js",
+    "dev:client": "vite",
+    "build": "vite build",
+    "start": "node src/server/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "lucide-react": "^0.395.0",
+    "pino": "^9.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sqlite3": "^5.1.7",
+    "ssh2": "^1.15.0",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^5.2.11"
+  }
+}

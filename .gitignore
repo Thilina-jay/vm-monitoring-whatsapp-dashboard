@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+
+# Production build output
+dist/
+
+# Local SQLite Database (Contains VM hostnames, usernames, passwords, and private keys!)
+database.db
+database.db-journal
+
+# WhatsApp Web Authentication Session (Contains active login keys!)
+auth_info_baileys/
+
+# Environment variables
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
